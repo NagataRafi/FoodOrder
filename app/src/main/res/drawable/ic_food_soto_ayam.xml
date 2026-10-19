@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Bowl -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M18,52 C18,78 36,98 60,98 C84,98 102,78 102,52 L18,52 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M60,94 C48,94 40,98 40,102 L80,102 C80,98 72,94 60,94 Z" />
+    <!-- Yellow Soto Turmeric Broth (kuah kuning) -->
+    <path
+        android:fillColor="#FDD835"
+        android:pathData="M22,54 C22,76 38,94 60,94 C82,94 98,76 98,54 Z" />
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M60,38 C39,38 22,45 22,54 C22,63 39,70 60,70 C81,70 98,63 98,54 C98,45 81,38 60,38 Z" />
+    <!-- Shredded chicken (suwiran ayam) -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M38,48 C34,50 36,58 44,56 C52,54 48,46 38,48 Z M46,58 C42,60 45,68 52,66 C60,64 54,56 46,58 Z" />
+    <!-- Boiled egg half -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,45 C66,45 60,52 60,60 C60,68 68,74 76,74 C84,74 88,68 88,59 C88,50 82,45 74,45 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M73,52 A6,6 0 1,0 73,64 A6,6 0 1,0 73,52 Z" />
+    <!-- Fresh lime wedge (jeruk nipis) -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M32,68 C36,76 44,80 48,76 L42,66 Z" />
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M35,69 C38,74 42,76 45,74 L41,68 Z" />
+    <!-- Celery bits -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M58,44 h3 v3 h-3 z M66,72 h3 v3 h-3 z M36,54 h3 v3 h-3 z" />
+</vector>

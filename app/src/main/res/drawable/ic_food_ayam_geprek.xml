@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Plate base -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M60,10 A50,50 0 1,0 60,110 A50,50 0 1,0 60,10 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M60,16 A44,44 0 1,0 60,104 A44,44 0 1,0 60,16 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,22 A38,38 0 1,0 60,98 A38,38 0 1,0 60,22 Z" />
+    <!-- Crispy chicken piece (golden brown) -->
+    <path
+        android:fillColor="#C67D27"
+        android:pathData="M42,40 C34,48 30,66 40,78 C48,88 74,86 82,74 C90,62 86,44 74,38 C62,32 50,32 42,40 Z" />
+    <!-- Crispy crunch textures -->
+    <path
+        android:fillColor="#935116"
+        android:pathData="M38,55 C35,62 42,66 45,62 Z M76,46 C80,50 82,60 76,64 Z M58,82 C65,85 70,82 66,78 Z" />
+    <!-- Sambal geprek (fiery red & seeds) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M48,46 C42,50 44,60 52,58 C58,56 62,64 70,60 C76,56 74,48 66,46 C58,44 54,42 48,46 Z" />
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M52,52 C48,56 50,64 58,62 C64,60 66,54 60,52 Z" />
+    <!-- Chili seeds (pale yellow) -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M50,50 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 Z M64,54 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 Z M56,58 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 Z M68,48 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 Z" />
+    <!-- Fresh Cucumber slice -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M28,68 A8,8 0 1,0 28,84 A8,8 0 1,0 28,68 Z" />
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M28,71 A5,5 0 1,0 28,81 A5,5 0 1,0 28,71 Z" />
+</vector>

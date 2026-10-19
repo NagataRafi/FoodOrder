@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Bowl top rim & broth -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M18,52 C18,78 36,98 60,98 C84,98 102,78 102,52 L18,52 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M60,94 C48,94 40,98 40,102 L80,102 C80,98 72,94 60,94 Z" />
+    <!-- Broth (kuah kaldu) -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M22,54 C22,76 38,94 60,94 C82,94 98,76 98,54 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M60,38 C39,38 22,45 22,54 C22,63 39,70 60,70 C81,70 98,63 98,54 C98,45 81,38 60,38 Z" />
+    <!-- Yellow noodles submerged -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,58 C44,52 48,64 56,58 C62,52 68,62 76,56" />
+    <!-- Meatballs (bakso sapi) -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M44,44 A9,9 0 1,0 44,62 A9,9 0 1,0 44,44 Z" />
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M42,46 A7,7 0 1,0 42,60 A7,7 0 1,0 42,46 Z" />
+    <!-- Big Bakso in center -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M64,48 A11,11 0 1,0 64,70 A11,11 0 1,0 64,48 Z" />
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M62,50 A9,9 0 1,0 62,68 A9,9 0 1,0 62,50 Z" />
+    <!-- Third meatball -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M80,42 A8,8 0 1,0 80,58 A8,8 0 1,0 80,42 Z" />
+    <!-- Scallions & fried shallots (daun bawang & seledri) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M36,66 h3 v3 h-3 z M50,68 h3 v3 h-3 z M74,68 h3 v3 h-3 z M58,42 h3 v3 h-3 z" />
+    <!-- Crisp wonton (pangsit goreng) -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M84,34 L100,48 L88,58 Z" />
+</vector>

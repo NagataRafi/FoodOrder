@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M48,8 A40,40 0 1,0 48,88 A40,40 0 1,0 48,8 Z" />
+    <path
+        android:strokeColor="#FF6B00"
+        android:strokeWidth="3"
+        android:pathData="M48,8 A40,40 0 1,0 48,88 A40,40 0 1,0 48,8 Z" />
+    <!-- Cloche / Plate Cover -->
+    <path
+        android:fillColor="#FF6B00"
+        android:pathData="M24,54 C24,38 34,26 48,26 C62,26 72,38 72,54 Z" />
+    <!-- Cloche Knob -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M44,22 C44,19.8 45.8,18 48,18 C50.2,18 52,19.8 52,22 C52,23.5 51.2,24.8 50,25.5 L46,25.5 C44.8,24.8 44,23.5 44,22 Z" />
+    <!-- Serving Platter Base -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M18,56 L78,56 C80.2,56 82,57.8 82,60 C82,62.2 80.2,64 78,64 L18,64 C15.8,64 14,62.2 14,60 C14,57.8 15.8,56 18,56 Z" />
+    <!-- Fork & Spoon Accent underneath -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M38,70 L58,70 C59.1,70 60,70.9 60,72 C60,73.1 59.1,74 58,74 L38,74 C36.9,74 36,73.1 36,72 C36,70.9 36.9,70 38,70 Z" />
+    <!-- Steam Lines -->
+    <path
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M40,16 C38,13 42,10 40,7" />
+    <path
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,15 C46,12 50,9 48,6" />
+    <path
+        android:strokeColor="#FFB74D"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M56,16 C54,13 58,10 56,7" />
+</vector>

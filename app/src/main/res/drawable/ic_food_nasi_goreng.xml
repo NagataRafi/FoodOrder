@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Plate base -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M60,10 A50,50 0 1,0 60,110 A50,50 0 1,0 60,10 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M60,16 A44,44 0 1,0 60,104 A44,44 0 1,0 60,16 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,22 A38,38 0 1,0 60,98 A38,38 0 1,0 60,22 Z" />
+    <!-- Fried rice mound (brown/golden) -->
+    <path
+        android:fillColor="#D87A24"
+        android:pathData="M60,32 C42,32 32,46 32,64 C32,80 44,88 60,88 C76,88 88,80 88,64 C88,46 78,32 60,32 Z" />
+    <!-- Rice texture bits (darker bits) -->
+    <path
+        android:fillColor="#BF5E13"
+        android:pathData="M44,52 h4 v2 h-4 z M52,44 h5 v2 h-5 z M68,48 h4 v2 h-4 z M62,60 h5 v2 h-5 z M46,68 h4 v2 h-4 z M72,66 h4 v2 h-4 z M56,76 h5 v2 h-5 z" />
+    <!-- Sunny side up egg white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,46 C54,46 48,52 48,58 C48,65 54,72 63,72 C71,72 76,66 76,59 C76,51 70,46 62,46 Z" />
+    <!-- Egg yolk (golden yellow) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M61,53 A7,7 0 1,0 61,67 A7,7 0 1,0 61,53 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M63,55 A5,5 0 1,0 63,65 A5,5 0 1,0 63,55 Z" />
+    <!-- Cucumber slice (green) -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M30,42 A8,8 0 1,0 30,58 A8,8 0 1,0 30,42 Z" />
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M30,45 A5,5 0 1,0 30,55 A5,5 0 1,0 30,45 Z" />
+    <!-- Tomato slice (red) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M88,42 A8,8 0 1,0 88,58 A8,8 0 1,0 88,42 Z" />
+    <!-- Kerupuk (cracker) -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M40,24 C45,20 56,22 58,28 C60,34 50,38 44,36 C38,34 35,28 40,24 Z" />
+</vector>

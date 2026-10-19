@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">FoodOrder</string>
+    <string name="app_tagline">Pesan Makanan Favoritmu dengan Mudah</string>
+
+    <!-- Login -->
+    <string name="login_title">Selamat Datang Kembali</string>
+    <string name="login_subtitle">Masuk untuk mulai memesan makanan lezat</string>
+    <string name="username_email_hint">Nama atau Email</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="btn_login">Masuk</string>
+    <string name="error_empty_username">Nama atau email wajib diisi</string>
+    <string name="error_empty_password">Kata sandi wajib diisi</string>
+    <string name="login_success">Login berhasil! Selamat datang di FoodOrder</string>
+
+    <!-- Main / Catalog -->
+    <string name="greeting_format">Halo, %1$s!</string>
+    <string name="catalog_subtitle">Mau makan apa hari ini?</string>
+    <string name="search_hint">Cari makanan favoritmu...</string>
+    <string name="category_all">Semua</string>
+    <string name="category_main">Makanan Utama</string>
+    <string name="category_drink">Minuman</string>
+    <string name="menu_catalog">Katalog</string>
+    <string name="menu_cart">Keranjang</string>
+    <string name="menu_history">Riwayat</string>
+    <string name="btn_detail">Lihat Detail</string>
+    <string name="btn_browse_online">Cari Restoran Online</string>
+    <string name="btn_view_map">Lihat Restoran di Peta</string>
+    <string name="no_food_found">Makanan tidak ditemukan</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Detail Makanan</string>
+    <string name="portion_label">Per porsi</string>
+    <string name="quantity_label">Jumlah Pesanan</string>
+    <string name="subtotal_label">Subtotal:</string>
+    <string name="btn_add_to_cart">Tambah ke Keranjang</string>
+    <string name="added_to_cart_success">%1$s berhasil ditambahkan ke keranjang</string>
+
+    <!-- Cart -->
+    <string name="cart_title">Keranjang Pesanan</string>
+    <string name="cart_empty_title">Keranjang Masih Kosong</string>
+    <string name="cart_empty_desc">Yuk pilih makanan lezat dari katalog kami!</string>
+    <string name="btn_explore_menu">Jelajahi Menu</string>
+    <string name="total_label">Total Pembayaran:</string>
+    <string name="btn_checkout">Lanjut ke Checkout</string>
+    <string name="cart_item_removed">%1$s dihapus dari keranjang</string>
+
+    <!-- Checkout -->
+    <string name="checkout_title">Ringkasan Pesanan</string>
+    <string name="order_items_title">Daftar Makanan</string>
+    <string name="payment_method_title">Pilih Metode Pembayaran</string>
+    <string name="payment_cash">Tunai (Cash)</string>
+    <string name="payment_bank">Transfer Bank (BCA / Mandiri / BRI)</string>
+    <string name="payment_ewallet">E-Wallet (GoPay / OVO / Dana)</string>
+    <string name="btn_confirm_order">Konfirmasi Pesanan</string>
+    <string name="error_select_payment">Harap pilih salah satu metode pembayaran</string>
+    <string name="error_empty_cart_checkout">Keranjang kosong, tidak dapat melanjutkan checkout</string>
+
+    <!-- Confirmation Dialog / Sheet -->
+    <string name="order_confirmed_title">Pesanan Berhasil!</string>
+    <string name="order_confirmed_subtitle">Status: Berhasil (Simulasi)</string>
+    <string name="order_id_format">No. Pesanan: %1$s</string>
+    <string name="order_payment_method_format">Metode: %1$s</string>
+    <string name="order_total_format">Total: %1$s</string>
+    <string name="order_time_format">Waktu: %1$s</string>
+    <string name="order_simulation_note">*Ini adalah transaksi simulasi. Tidak ada uang riil yang dipotong.</string>
+    <string name="btn_view_history">Lihat Riwayat</string>
+    <string name="btn_back_to_catalog">Kembali ke Katalog</string>
+
+    <!-- Order History -->
+    <string name="history_title">Riwayat Pesanan</string>
+    <string name="history_empty_title">Belum Ada Riwayat Pesanan</string>
+    <string name="history_empty_desc">Pesanan yang telah kamu konfirmasi akan muncul di sini</string>
+    <string name="order_status_success">Berhasil (Simulasi)</string>
+
+    <!-- Implicit Intents -->
+    <string name="error_browser_not_available">Aplikasi browser tidak tersedia</string>
+    <string name="error_maps_not_available">Aplikasi peta tidak tersedia, membuka di browser...</string>
+    <string name="error_all_maps_failed">Tidak dapat membuka aplikasi peta atau browser</string>
+</resources>

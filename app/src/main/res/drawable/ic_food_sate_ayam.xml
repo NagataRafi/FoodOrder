@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Plate base -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M60,10 A50,50 0 1,0 60,110 A50,50 0 1,0 60,10 Z" />
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M60,18 A42,42 0 1,0 60,102 A42,42 0 1,0 60,18 Z" />
+    <!-- Banana leaf lining (green with leaf lines) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M30,30 C60,20 90,30 96,60 C90,90 60,96 30,90 C20,60 20,40 30,30 Z" />
+    <!-- Peanut sauce base (bumbu kacang) -->
+    <path
+        android:fillColor="#8D5B28"
+        android:pathData="M40,46 C50,40 70,42 80,48 C85,58 78,74 65,76 C50,78 38,68 40,46 Z" />
+    <!-- Skewer sticks (bamboo) -->
+    <path
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="2.5"
+        android:pathData="M24,78 L92,38" />
+    <path
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="2.5"
+        android:pathData="M28,86 L96,46" />
+    <path
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="2.5"
+        android:pathData="M32,94 L100,54" />
+    <!-- Grilled meat pieces (satay chunks) -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M42,62 A5,5 0 1,0 42,72 A5,5 0 1,0 42,62 Z M54,54 A5,5 0 1,0 54,64 A5,5 0 1,0 54,54 Z M66,47 A5,5 0 1,0 66,57 A5,5 0 1,0 66,47 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M48,70 A5,5 0 1,0 48,80 A5,5 0 1,0 48,70 Z M60,62 A5,5 0 1,0 60,72 A5,5 0 1,0 60,62 Z M72,55 A5,5 0 1,0 72,65 A5,5 0 1,0 72,55 Z" />
+    <!-- Sweet soy sauce drizzle (kecap manis) -->
+    <path
+        android:strokeColor="#212121"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,52 C56,48 64,68 76,58" />
+    <!-- Shallot slices (bawang merah) -->
+    <path
+        android:fillColor="#BA68C8"
+        android:pathData="M78,68 A3,3 0 1,0 78,74 A3,3 0 1,0 78,68 Z M68,76 A3,3 0 1,0 68,82 A3,3 0 1,0 68,76 Z" />
+</vector>

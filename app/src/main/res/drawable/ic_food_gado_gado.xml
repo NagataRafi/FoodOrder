@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Plate base -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M60,10 A50,50 0 1,0 60,110 A50,50 0 1,0 60,10 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M60,16 A44,44 0 1,0 60,104 A44,44 0 1,0 60,16 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,22 A38,38 0 1,0 60,98 A38,38 0 1,0 60,22 Z" />
+    <!-- Greens & Cabbage base -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M38,44 C34,50 36,68 44,76 C56,86 78,84 84,72 C90,58 84,46 72,40 C58,34 44,38 38,44 Z" />
+    <!-- Bean sprouts / pale greens -->
+    <path
+        android:strokeColor="#C8E6C9"
+        android:strokeWidth="2"
+        android:pathData="M44,46 C48,42 54,48 58,44 M62,70 C66,66 72,72 76,68" />
+    <!-- Tofu & Tempeh cubes (tahu tempe goreng) -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M40,56 l8,-3 l4,7 l-8,3 z" />
+    <path
+        android:fillColor="#D87A24"
+        android:pathData="M68,44 l7,-2 l3,6 l-7,2 z" />
+    <!-- Thick peanut sauce over veggies (bumbu kacang) -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M46,50 C40,56 46,68 56,66 C64,64 74,74 80,64 C86,54 78,48 68,52 C58,56 50,44 46,50 Z" />
+    <!-- Boiled egg half -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,66 C46,66 42,72 42,78 C42,84 48,88 54,88 C60,88 64,84 64,77 C64,70 58,66 52,66 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M51,72 A5,5 0 1,0 51,82 A5,5 0 1,0 51,72 Z" />
+    <!-- Emping / kerupuk on top -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M72,30 C78,26 86,30 84,36 C82,42 74,42 70,38 C66,34 68,30 72,30 Z" />
+</vector>

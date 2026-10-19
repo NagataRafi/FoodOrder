@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Plate / coaster -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M60,96 C40,96 32,100 32,104 C32,108 40,112 60,112 C80,112 88,108 88,104 C88,100 80,96 60,96 Z" />
+    <!-- Straw -->
+    <path
+        android:strokeColor="#FF5722"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M56,70 L72,20 L86,14" />
+    <!-- Glass outer shadow/contour -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M38,32 L46,96 C47,100 52,102 60,102 C68,102 73,100 74,96 L82,32 Z" />
+    <!-- Iced tea liquid (rich amber) -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M40,46 L47,94 C48,97 52,99 60,99 C68,99 72,97 73,94 L80,46 Z" />
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M60,42 C50,42 40,44 40,46 C40,48 50,50 60,50 C70,50 80,48 80,46 C80,44 70,42 60,42 Z" />
+    <!-- Ice cubes in tea (translucent light blue/white) -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M46,54 l10,-2 l3,10 l-10,2 z M62,60 l10,-3 l4,10 l-10,3 z M50,74 l11,-2 l3,10 l-11,2 z" />
+    <!-- Glass highlights (white shine) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M42,36 L48,92" />
+    <!-- Mint leaf garnish on rim -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M34,30 C32,24 40,22 44,26 C48,30 40,36 34,30 Z" />
+</vector>

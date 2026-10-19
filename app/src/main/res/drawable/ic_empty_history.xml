@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Circle background -->
+    <path
+        android:fillColor="#F1F3F4"
+        android:pathData="M48,8 A40,40 0 1,0 48,88 A40,40 0 1,0 48,8 Z" />
+    <!-- Clock outline -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M48,20 C32.5,20 20,32.5 20,48 C20,63.5 32.5,76 48,76 C63.5,76 76,63.5 76,48 C76,32.5 63.5,20 48,20 Z M48,70 C35.9,70 26,60.1 26,48 C26,35.9 35.9,26 48,26 C60.1,26 70,35.9 70,48 C70,60.1 60.1,70 48,70 Z" />
+    <!-- Clock hands -->
+    <path
+        android:strokeColor="#757575"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M48,34 L48,48 L58,54" />
+</vector>

@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Plate base -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M60,10 A50,50 0 1,0 60,110 A50,50 0 1,0 60,10 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M60,16 A44,44 0 1,0 60,104 A44,44 0 1,0 60,16 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,22 A38,38 0 1,0 60,98 A38,38 0 1,0 60,22 Z" />
+    <!-- Noodle mound -->
+    <path
+        android:fillColor="#B76E28"
+        android:pathData="M60,34 C44,34 32,48 32,65 C32,82 44,88 60,88 C76,88 88,82 88,65 C88,48 76,34 60,34 Z" />
+    <!-- Yellow/savory noodle strands -->
+    <path
+        android:strokeColor="#F5B041"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,55 C46,45 54,65 62,55 C70,45 78,65 82,55" />
+    <path
+        android:strokeColor="#F5B041"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M36,65 C44,75 52,55 60,65 C68,75 76,55 84,65" />
+    <path
+        android:strokeColor="#E59866"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M42,48 C50,58 58,42 66,50 C74,58 78,45 80,48" />
+    <path
+        android:strokeColor="#F5B041"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M40,75 C48,82 56,70 64,76 C72,82 78,72 80,75" />
+    <!-- Greens (sawi) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M46,40 C42,42 44,48 50,47 C56,46 54,39 46,40 Z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M68,70 C64,72 66,78 72,77 C78,76 76,69 68,70 Z" />
+    <!-- Red chili slices -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M56,58 C54,56 58,54 62,56 C66,58 62,60 56,58 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M46,68 C44,66 48,64 52,66 C56,68 52,70 46,68 Z" />
+</vector>
