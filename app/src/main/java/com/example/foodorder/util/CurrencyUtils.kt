@@ -4,7 +4,7 @@ import java.text.NumberFormat
 import java.util.Locale
 
 object CurrencyUtils {
-    private val localeId = Locale("id", "ID")
+    private val localeId = Locale.forLanguageTag("id-ID")
     private val numberFormat = NumberFormat.getNumberInstance(localeId)
 
     /**
