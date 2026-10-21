@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         updateCartBadge()
+        filterFoodList()
         // Reset bottom navigation selection to catalog
         binding.bottomNavigation.selectedItemId = R.id.nav_catalog
     }

@@ -17,6 +17,19 @@
     <color name="accent_blue">#1976D2</color>
     <color name="accent_blue_light">#E3F2FD</color>
 
+    <!-- Editorial Food UI Palette (Warm, Terracotta, Olive Green) -->
+    <color name="editorial_warm_bg">#FAF7F2</color>
+    <color name="editorial_card_bg">#FFFFFF</color>
+    <color name="editorial_terracotta">#C85A32</color>
+    <color name="editorial_terracotta_light">#FBECE7</color>
+    <color name="editorial_olive">#4A6B3A</color>
+    <color name="editorial_olive_light">#EBF2E8</color>
+    <color name="editorial_cream">#F5EFE6</color>
+    <color name="editorial_badge_bg">#E8F5E9</color>
+    <color name="editorial_badge_text">#2E7D32</color>
+    <color name="editorial_warning_bg">#FFF8E1</color>
+    <color name="editorial_warning_text">#F57F17</color>
+
     <!-- Neutrals & Backgrounds -->
     <color name="background">#F8F9FA</color>
     <color name="surface">#FFFFFF</color>

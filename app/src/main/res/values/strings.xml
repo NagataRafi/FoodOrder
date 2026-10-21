@@ -11,6 +11,53 @@
     <string name="error_empty_username">Nama atau email wajib diisi</string>
     <string name="error_empty_password">Kata sandi wajib diisi</string>
     <string name="login_success">Login berhasil! Selamat datang di FoodOrder</string>
+    <string name="login_prompt_register">Belum punya akun?</string>
+    <string name="btn_go_to_register">Daftar Akun Baru</string>
+    <string name="demo_credentials_hint">Akun Demo:\n• Admin: admin@foodorder.local / Admin123!\n• User: budi@example.com / password123</string>
+
+    <!-- Register -->
+    <string name="register_title">Daftar Akun Baru</string>
+    <string name="register_subtitle">Buat akun untuk memesan kuliner favoritmu</string>
+    <string name="name_hint">Nama Lengkap</string>
+    <string name="email_hint">Alamat Email</string>
+    <string name="confirm_password_hint">Konfirmasi Kata Sandi</string>
+    <string name="btn_register">Daftar Sekarang</string>
+    <string name="register_prompt_login">Sudah memiliki akun?</string>
+    <string name="btn_go_to_login">Masuk di sini</string>
+    <string name="error_empty_name">Nama lengkap wajib diisi</string>
+    <string name="error_empty_email">Email wajib diisi</string>
+    <string name="error_invalid_email">Format email tidak valid (contoh: user@mail.com)</string>
+    <string name="error_password_mismatch">Kata sandi dan konfirmasi kata sandi tidak sama</string>
+    <string name="error_password_short">Kata sandi minimal 6 karakter</string>
+    <string name="register_success">Registrasi berhasil! Silakan masuk dengan akun barumu.</string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard_title">Panel Admin FoodOrder</string>
+    <string name="admin_greeting_format">Halo, %1$s (Admin)</string>
+    <string name="admin_catalog_summary_title">Ringkasan Katalog Menu</string>
+    <string name="admin_total_menu_format">%1$d Menu</string>
+    <string name="admin_main_course_count_format">%1$d Makanan</string>
+    <string name="admin_drink_count_format">%1$d Minuman</string>
+    <string name="btn_add_new_menu">+ Tambah Menu Baru</string>
+    <string name="btn_logout">Keluar (Logout)</string>
+    <string name="admin_menu_list_title">Daftar Menu Tersedia</string>
+
+    <!-- Add Menu -->
+    <string name="add_menu_title">Tambah Menu Baru</string>
+    <string name="add_menu_subtitle">Lengkapi formulir untuk menambahkan makanan atau minuman ke katalog</string>
+    <string name="menu_name_hint">Nama Menu</string>
+    <string name="menu_category_hint">Pilih Kategori</string>
+    <string name="menu_price_hint">Harga Satuan (Rupiah)</string>
+    <string name="menu_desc_hint">Deskripsi Singkat Hidangan</string>
+    <string name="btn_save_menu">Simpan Menu</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="error_empty_menu_name">Nama menu tidak boleh kosong</string>
+    <string name="error_empty_category">Kategori menu wajib dipilih</string>
+    <string name="error_invalid_price">Harga harus berupa angka bulat positif lebih dari 0</string>
+    <string name="error_empty_description">Deskripsi singkat wajib diisi</string>
+    <string name="add_menu_success_title">Menu Berhasil Ditambahkan!</string>
+    <string name="add_menu_success_message">Menu \"%1$s\" telah masuk ke katalog FoodOrder.</string>
+    <string name="btn_back_to_dashboard">Kembali ke Dashboard</string>
 
     <!-- Main / Catalog -->
     <string name="greeting_format">Halo, %1$s!</string>
@@ -54,16 +101,19 @@
     <string name="btn_confirm_order">Konfirmasi Pesanan</string>
     <string name="error_select_payment">Harap pilih salah satu metode pembayaran</string>
     <string name="error_empty_cart_checkout">Keranjang kosong, tidak dapat melanjutkan checkout</string>
+    <string name="validation_payment_title">Metode Pembayaran Diperlukan</string>
+    <string name="validation_payment_desc">Silakan pilih salah satu opsi metode pembayaran di bawah (Tunai, Transfer Bank, atau E-Wallet) sebelum mengonfirmasi pesanan.</string>
+    <string name="btn_understood">Saya Mengerti</string>
 
     <!-- Confirmation Dialog / Sheet -->
-    <string name="order_confirmed_title">Pesanan Berhasil!</string>
+    <string name="order_confirmed_title">Pesanan Berhasil</string>
     <string name="order_confirmed_subtitle">Status: Berhasil (Simulasi)</string>
     <string name="order_id_format">No. Pesanan: %1$s</string>
     <string name="order_payment_method_format">Metode: %1$s</string>
     <string name="order_total_format">Total: %1$s</string>
     <string name="order_time_format">Waktu: %1$s</string>
-    <string name="order_simulation_note">*Ini adalah transaksi simulasi. Tidak ada uang riil yang dipotong.</string>
-    <string name="btn_view_history">Lihat Riwayat</string>
+    <string name="order_simulation_note">Transaksi ini merupakan simulasi lokal. Tidak ada pemotongan uang riil.</string>
+    <string name="btn_view_history">Lihat Riwayat Pesanan</string>
     <string name="btn_back_to_catalog">Kembali ke Katalog</string>
 
     <!-- Order History -->

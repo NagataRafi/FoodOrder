@@ -13,6 +13,7 @@ import com.example.foodorder.data.CartManager
 import com.example.foodorder.data.OrderManager
 import com.example.foodorder.databinding.ActivityCheckoutBinding
 import com.example.foodorder.databinding.DialogOrderConfirmationBinding
+import com.example.foodorder.databinding.DialogValidationNoticeBinding
 import com.example.foodorder.databinding.ItemCheckoutFoodBinding
 import com.example.foodorder.model.Order
 import com.example.foodorder.model.OrderItem
@@ -89,7 +90,8 @@ class CheckoutActivity : AppCompatActivity() {
 
         val selectedRadioId = binding.rgPaymentMethod.checkedRadioButtonId
         if (selectedRadioId == -1) {
-            Toast.makeText(this, getString(R.string.error_select_payment), Toast.LENGTH_SHORT).show()
+            // Show redesigned payment validation dialog without modifying cart or creating order
+            showPaymentValidationDialog()
             return
         }
 
@@ -130,6 +132,20 @@ class CheckoutActivity : AppCompatActivity() {
 
         // Show Confirmation Dialog
         showConfirmationDialog(order)
+    }
+
+    private fun showPaymentValidationDialog() {
+        val dialog = Dialog(this)
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        val dialogBinding = DialogValidationNoticeBinding.inflate(layoutInflater)
+        dialog.setContentView(dialogBinding.root)
+        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
+        dialogBinding.btnValidationDismiss.setOnClickListener {
+            dialog.dismiss()
+        }
+
+        dialog.show()
     }
 
     private fun showConfirmationDialog(order: Order) {

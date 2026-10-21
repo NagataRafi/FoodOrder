@@ -4,17 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="20dp"
     android:orientation="vertical"
+    android:background="@drawable/bg_dialog_editorial"
     android:padding="24dp"
-    android:gravity="center_horizontal"
-    android:background="@drawable/bg_rounded_dialog">
+    android:gravity="center_horizontal">
 
-    <!-- Success Check Icon -->
-    <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:contentDescription="@null"
-        app:srcCompat="@drawable/ic_check_circle" />
+    <!-- Top Decorative Olive Badge Icon -->
+    <FrameLayout
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="@drawable/bg_dialog_icon_circle">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ic_success_editorial"
+            app:tint="@color/editorial_olive" />
+    </FrameLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,37 +31,33 @@
         android:layout_marginTop="16dp"
         android:text="@string/order_confirmed_title"
         android:textColor="@color/text_primary"
-        android:textSize="20sp"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-medium"
         android:textStyle="bold" />
 
+    <!-- Status pill -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/bg_status_badge"
-        android:paddingStart="12dp"
-        android:paddingTop="4dp"
-        android:paddingEnd="12dp"
-        android:paddingBottom="4dp"
+        android:paddingStart="14dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="5dp"
         android:text="@string/order_status_success"
-        android:textColor="@color/accent_green"
+        android:textColor="@color/editorial_olive"
         android:textSize="12sp"
         android:textStyle="bold" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="16dp"
-        android:background="@color/divider" />
-
-    <!-- Details Box -->
+    <!-- Warm Receipt Summary Card -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:orientation="vertical"
-        android:background="@drawable/bg_quantity_selector"
-        android:padding="16dp">
+        android:background="@drawable/bg_dialog_receipt_box"
+        android:padding="18dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,7 +68,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="No. Pesanan"
+                android:text="Nomor Pesanan"
                 android:textColor="@color/text_secondary"
                 android:textSize="13sp" />
 
@@ -72,15 +77,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/text_primary"
-                android:textSize="13sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 tools:text="ORD-849201" />
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#E2D4C0" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
             <TextView
@@ -98,7 +109,7 @@
                 android:textColor="@color/text_primary"
                 android:textSize="13sp"
                 android:textStyle="bold"
-                tools:text="Tunai" />
+                tools:text="Tunai (Cash)" />
         </LinearLayout>
 
         <LinearLayout
@@ -111,7 +122,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Waktu"
+                android:text="Waktu Transaksi"
                 android:textColor="@color/text_secondary"
                 android:textSize="13sp" />
 
@@ -121,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/text_primary"
                 android:textSize="13sp"
-                tools:text="19 Okt 2026, 12:30" />
+                tools:text="19/10/2026 12:45" />
         </LinearLayout>
 
         <View
@@ -129,12 +140,13 @@
             android:layout_height="1dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@color/divider" />
+            android:background="#E2D4C0" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
 
             <TextView
                 android:layout_width="0dp"
@@ -149,44 +161,49 @@
                 android:id="@+id/tvDialogTotalAmount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/primary"
-                android:textSize="16sp"
+                android:textColor="@color/editorial_terracotta"
+                android:textSize="18sp"
                 android:textStyle="bold"
-                tools:text="Rp75.000" />
+                tools:text="Rp65.000" />
         </LinearLayout>
     </LinearLayout>
 
+    <!-- Simulation Disclaimer note -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
         android:text="@string/order_simulation_note"
-        android:textAlignment="center"
-        android:textColor="@color/text_tertiary"
-        android:textSize="11sp" />
+        android:textColor="@color/text_secondary"
+        android:textSize="11sp"
+        android:textAlignment="center" />
 
     <!-- Action Buttons -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnDialogViewHistory"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="52dp"
         android:layout_marginTop="20dp"
         android:text="@string/btn_view_history"
         android:textAllCaps="false"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:cornerRadius="@dimen/button_corner_radius"
-        app:backgroundTint="@color/primary" />
+        app:cornerRadius="12dp"
+        app:backgroundTint="@color/editorial_olive" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnDialogBackToCatalog"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="match_parent"
-        android:layout_height="44dp"
-        android:layout_marginTop="6dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:text="@string/btn_back_to_catalog"
         android:textAllCaps="false"
-        android:textColor="@color/text_secondary"
-        android:textSize="14sp" />
+        android:textColor="@color/editorial_terracotta"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:strokeColor="@color/editorial_terracotta"
+        app:strokeWidth="1.5dp"
+        app:cornerRadius="12dp" />
 
 </LinearLayout>

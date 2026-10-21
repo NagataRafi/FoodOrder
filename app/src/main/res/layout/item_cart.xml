@@ -27,15 +27,22 @@
             android:orientation="horizontal">
 
             <!-- Thumbnail -->
-            <ImageView
-                android:id="@+id/ivCartFoodThumb"
+            <com.google.android.material.card.MaterialCardView
                 android:layout_width="@dimen/food_image_size_small"
                 android:layout_height="@dimen/food_image_size_small"
-                android:background="@drawable/bg_quantity_selector"
-                android:padding="6dp"
-                android:scaleType="fitCenter"
-                android:contentDescription="@null"
-                tools:srcCompat="@drawable/ic_food_nasi_goreng" />
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="0dp"
+                app:cardBackgroundColor="@color/surface_variant">
+
+                <ImageView
+                    android:id="@+id/ivCartFoodThumb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@null"
+                    tools:srcCompat="@drawable/food_nasi_goreng" />
+            </com.google.android.material.card.MaterialCardView>
 
             <!-- Food Info -->
             <LinearLayout

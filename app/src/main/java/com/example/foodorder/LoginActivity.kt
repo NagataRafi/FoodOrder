@@ -6,7 +6,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doOnTextChanged
 import com.example.foodorder.data.SessionManager
+import com.example.foodorder.data.UserManager
 import com.example.foodorder.databinding.ActivityLoginBinding
+import com.example.foodorder.model.UserRole
 
 class LoginActivity : AppCompatActivity() {
 
@@ -32,15 +34,20 @@ class LoginActivity : AppCompatActivity() {
         binding.btnLogin.setOnClickListener {
             handleLogin()
         }
+
+        binding.tvGoToRegister.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun handleLogin() {
-        val username = binding.etUsername.text?.toString()?.trim().orEmpty()
+        val usernameOrEmail = binding.etUsername.text?.toString()?.trim().orEmpty()
         val password = binding.etPassword.text?.toString()?.trim().orEmpty()
 
         var hasError = false
 
-        if (username.isEmpty()) {
+        if (usernameOrEmail.isEmpty()) {
             binding.tilUsername.error = getString(R.string.error_empty_username)
             hasError = true
         }
@@ -54,13 +61,27 @@ class LoginActivity : AppCompatActivity() {
             return
         }
 
-        // Dummy login success
-        SessionManager.login(username)
-        Toast.makeText(this, getString(R.string.login_success), Toast.LENGTH_SHORT).show()
+        when (val result = UserManager.authenticate(usernameOrEmail, password)) {
+            is UserManager.AuthResult.Success -> {
+                val user = result.user
+                SessionManager.login(user)
 
-        // Navigate to MainActivity via Explicit Intent
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-        finish()
+                if (user.role == UserRole.ADMIN) {
+                    Toast.makeText(this, "Selamat datang Administrator", Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this, AdminDashboardActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    Toast.makeText(this, getString(R.string.login_success), Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                }
+            }
+            is UserManager.AuthResult.InvalidCredentials -> {
+                binding.tilPassword.error = result.message
+                Toast.makeText(this, result.message, Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 }

@@ -30,10 +30,9 @@
                 android:id="@+id/ivFoodImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="8dp"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 android:contentDescription="@string/app_name"
-                tools:srcCompat="@drawable/ic_food_nasi_goreng" />
+                tools:srcCompat="@drawable/food_nasi_goreng" />
 
             <!-- Category Badge -->
             <TextView
